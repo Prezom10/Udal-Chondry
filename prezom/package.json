@@ -1,0 +1,14 @@
+{
+  "name": "prezom",
+  "version": "1.0.0",
+  "description": "Admin password reset utility",
+  "main": "reset-admin.js",
+  "scripts": {
+    "reset": "node reset-admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.1"
+  }
+}
