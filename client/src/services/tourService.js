@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/tours';
+const API_URL = 'https://bd-travel.onrender.com/api/tours';
 
 // Get all tours
 const getAllTours = () => {
