@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://bd-travel.onrender.com/api/auth';
 
 const register = (username, email, phone, password) => {
   return axios.post(`${API_URL}/register`, {
