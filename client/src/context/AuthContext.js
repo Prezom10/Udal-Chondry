@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://bd-travel.onrender.com/api/auth';
 
 // Utility to set the authorization header
 const setAuthToken = (token) => {
